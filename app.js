@@ -1,5 +1,3 @@
-let marks = 90;
-
-if(marks >= 33 && marks < 50) {
-    console.log("You have passed the exam with a grade of C.");
-}
+let str = "ab";
+console.log(str.length); // This will log 2
+// This will not throw an error, but it will not change the string length
