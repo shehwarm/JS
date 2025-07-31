@@ -1,16 +1,12 @@
-console.log("Hello, World!");
-console.log("This is a simple Node.js application.");
+let marks = 88;
 
-let a=5;
-let b= 10;
-let sum= a+b;
-console.log("the sum of a and b is :",sum);
-
-console.log(a+b);
-console.log(a*b);
-console.log(a++);
-console.log(++a);
-
-let age = 16;
-
-console.log(age>18);
+if(marks >= 50) {
+    console.log("You have passed the exam.");
+    if(marks >= 80){
+        console.log("You have achieved distinction.");
+    } else {
+        console.log("You have passed with a good score.");
+    }
+} else {
+    console.log("You have failed the exam.");
+}
