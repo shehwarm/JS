@@ -10,3 +10,7 @@ console.log(a+b);
 console.log(a*b);
 console.log(a++);
 console.log(++a);
+
+let age = 16;
+
+console.log(age>18);
