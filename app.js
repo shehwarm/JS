@@ -8,3 +8,5 @@ console.log("the sum of a and b is :",sum);
 
 console.log(a+b);
 console.log(a*b);
+console.log(a++);
+console.log(++a);
