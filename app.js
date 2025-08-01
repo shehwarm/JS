@@ -1,3 +1,6 @@
+let msg = " man    go  ";
 
+msg = msg.trim();
+console.log(msg); // Output: "mango"
 
-prompt("enter a number between 1 and 7");
+u= 
