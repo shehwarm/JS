@@ -1,5 +1,6 @@
 let msg ="  Apna College";
-let newMsg = msg.trim();
-console.log(newMsg);
-newMsg=newMsg.toUpperCase();
+
+
+
+let newMsg = msg.trim().toLowerCase();
 console.log(newMsg);
