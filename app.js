@@ -1,3 +1,3 @@
 let msg ="ApnaCollege";
-newMsg = msg.replace("Apna", "Your");
+newMsg = msg.repeat(2);
 console.log(newMsg);
