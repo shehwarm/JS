@@ -1,6 +1,6 @@
-let msg ="  Apna College";
+let msg ="ApnaCollege";
 
 
 
-let newMsg = msg.trim().toLowerCase();
+let newMsg = msg.slice(2);
 console.log(newMsg);
