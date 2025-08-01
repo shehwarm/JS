@@ -1,6 +1,3 @@
 let msg ="ApnaCollege";
-
-
-
-let newMsg = msg.slice(2);
+newMsg = msg.replace("Apna", "Your");
 console.log(newMsg);
