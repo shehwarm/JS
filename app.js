@@ -1,4 +1,4 @@
-let str ="  Apna College";
+let msg ="  Apna College";
 let newMsg = msg.trim();
 console.log(newMsg);
 newMsg=newMsg.toUpperCase();
