@@ -1,4 +1,4 @@
-let str =" Apna College";
+let str ="Apna College";
 
 newstr = str.trim();
 str1= str.toUpperCase();
