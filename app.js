@@ -1,4 +1,6 @@
-let cars =["audi", "bmw", "mercedes"];
-cars.push("toyota");
+let months = ["January","july", "March", "August"];
 
-console.log(cars);
+months.shift().shift();
+
+console.log(months);
+
