@@ -1,3 +1,3 @@
 let msg ="ApnaCollege";
-newMsg = msg.repeat(2);
-console.log(newMsg);
+newMsg=msg.slice(4,11).replace("l","t");
+console.log(newMsg);    
