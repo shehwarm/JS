@@ -1,6 +1,7 @@
-let primary = ["red", "green", "blue"];
-let secondary = ["yellow", "cyan", "magenta"];
+ for(let i=1; i <= 10; i++) {
+    console.log(i);
+  }
 
-primary.concat(secondary);
-
-console.log(primary);
+   for(let i=10; i>=1; i--) {
+    console.log(i);
+  }
