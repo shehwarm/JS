@@ -1,6 +1,11 @@
-let i=5;
+const favMovie= "avatar";
 
-while(i<=5){
-  console.log(i);
-  i++;  
+prompt("What is your favorite movie?");
+
+while( ( guess != favMovie) && (guess !="quit")){
+  guess = prompt("Try again! What is your favorite movie?");
+}
+
+if(guess == favMovie){
+  alert("You got it right!");
 }
