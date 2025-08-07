@@ -1,8 +1,6 @@
-let i=1;
-while(i <= 5) {
-  if (i == 3) {
-    break;
-  }
-    console.log(i);
-  i++;
+let fruits = ["apple", "banana", "cherry", "date", "elderberry"];
+
+for(let i = 0; i < fruits.length; i++) {
+
+  console.log(fruits[i]);
 }
