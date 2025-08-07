@@ -1,11 +1,11 @@
-let fruits = [
-  ["apple", "banana", "cherry"],
-  ["date", "cherry", "elderberry"]
-];
+let todo=[];
 
-for (list of fruits) {
-  for(name of list) {
-    console.log(name);
-}
+let req = prompt("Please enter your request");
+console.log(req);
 
+while(true){
+  if( req == "quit"){
+    console.log("quitting app");
+    break;
+  }
 }
