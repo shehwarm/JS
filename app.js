@@ -18,6 +18,12 @@ while(true){
     let task = prompt("Please enter your task");
     todo.push(task);
     console.log("task added successfully");
+  } else if(req == "delete"){
+    let idx = prompt("Please enter your task");
+    todo.splice(idx, 1);
+    console.log("task deleted successfully");
+  } else {
+    console.log("Invalid request");
   }
    req= prompt("Please enter your request");
 }
