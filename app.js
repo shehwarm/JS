@@ -1,9 +1,11 @@
-let fruits =["apple", "banana", "cherry", "date", "elderberry"];
+let fruits = [
+  ["apple", "banana", "cherry"],
+  ["date", "cherry", "elderberry"]
+];
 
-for(fruit of fruits){
-  console.log(fruit);
+for (list of fruits) {
+  for(name of list) {
+    console.log(name);
 }
 
-for(char of "apnacollege"){
-  console.log(char);
 }
