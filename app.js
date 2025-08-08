@@ -1,10 +1,4 @@
-
-
-function dice() {
-
-        let rand = Math.floor(Math.random() * 6) + 1;
-        console.log(rand);
-
+function printInfo(name, age) {
+    console.log(`${name} is ${age} years old`);
 }
-
-dice();
+printInfo("John Doe", 20);
