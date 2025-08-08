@@ -1,5 +1,7 @@
-function sum(a, b){
-    console.log(a + b); 
+function printTable(n) {
+    for( let i=1; i<=10; i++) {
+        console.log(`${n} * ${i} = ${n*i}`);
+    }
 }
 
-sum(5, 10);
+printTable(5);
