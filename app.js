@@ -1,11 +1,11 @@
-function multiple(func, n){
-    for(let i = 0; i < n; i++){
-        func();
-    }
+const calculator = {
+    add: function(a,b){
+        return a+ b;
+    },
+    subtract: function(a,b){
+        return a - b;
+    },
 }
 
-let greet = function(){
-    console.log("Hello, World!");
-}
-
-multiple(greet, 9)
+calculator.add(5, 3); // 8
+calculator.subtract(5, 3); // 2
