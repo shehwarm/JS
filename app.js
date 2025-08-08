@@ -1,2 +1,3 @@
-
-const random = Math.floor(Math.random() * 6)+ 1;
+function hello(){
+    console.log("Hello, World!");
+}
