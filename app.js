@@ -1,4 +1,5 @@
-function printInfo(name, age) {
-    console.log(`${name} is ${age} years old`);
+function sum(a, b){
+    console.log(a + b); 
 }
-printInfo("John Doe", 20);
+
+sum(5, 10);
