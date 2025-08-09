@@ -1,13 +1,10 @@
-const student = {
-    name: "shradha",
-    age: 20,
-    math: 90,
-    english: 85,
-    science: 88,
-    getAvg() {
-        let avg = (this.english + this.math + this.science) / 3;
-        console.log(avg);
-    }
-} 
+console.log("Hello, World!");
 
-student.getAvg();
+try{
+    console.log(a);
+} catch {
+    console.error("An error occurred: ", e);
+}
+
+console.log("This is a test message.");
+console.log("This is another test message.");
