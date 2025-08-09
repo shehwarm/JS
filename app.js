@@ -1,11 +1,13 @@
-const calculator = {
-    add: function(a,b){
-        return a+ b;
-    },
-    subtract: function(a,b){
-        return a - b;
-    },
-}
+const student = {
+    name: "shradha",
+    age: 20,
+    math: 90,
+    english: 85,
+    science: 88,
+    getAvg() {
+        let avg = (this.english + this.math + this.science) / 3;
+        console.log(avg);
+    }
+} 
 
-calculator.add(5, 3); // 8
-calculator.subtract(5, 3); // 2
+student.getAvg();
