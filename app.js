@@ -1,5 +1,3 @@
-const sum = (a, b) => { console.log(a + b); };
-sum(5, 10);
+const mul = (a, b) => (a*b);
 
-const cube = (x) => { x*x*x};
-cube(3);
+mul(4,2);
