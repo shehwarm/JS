@@ -1,4 +1,10 @@
-let nums = [1,2,3,4];
+let arr = [1,2,3,4,5,6,7,8,9];
 
-let finalVal = nums.reduce((acc, curr) => acc + curr);
-console.log(finalVal); // 10
+let max = arr.reduce((acc, curr) =>{
+    if(curr > acc){
+        return curr;
+    } else {
+        return max;
+    }
+});
+ console.log(max); // 9
