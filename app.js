@@ -1,7 +1,17 @@
-let arr = [1, 2, 3, 4, 5];
+let students = [
+    {
+        name: "John Doe",
+        marks: 80,
+    },
+    {        
+        name: "Jane Smith",
+        marks: 92
+    },
 
-let print = function(el){
-    console.log(el);    
+];
+
+let gpa= students.map((el) =>{
+    return el.marks/10;
 }
-
-arr.forEach(print);
+);
+console.log(gpa);
