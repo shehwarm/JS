@@ -1,17 +1,5 @@
-let students = [
-    {
-        name: "John Doe",
-        marks: 80,
-    },
-    {        
-        name: "Jane Smith",
-        marks: 92
-    },
+let arr = [1, 2, 3, 4, 5];
 
-];
-
-let gpa= students.map((el) =>{
-    return el.marks/10;
-}
-);
-console.log(gpa);
+let even = arr.filter((el)=> {
+    return el% 2 == 0
+});
