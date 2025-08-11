@@ -1,6 +1,3 @@
+let arr= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-function sum(a, b=4){
-    return a + b;
-}
-console.log(sum(2)); // Outputs: 6
-
+console.log(Math.max(...arr)); // Outputs: 1
