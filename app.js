@@ -1,6 +1,7 @@
-const student = {
-    name : "John Doe",
-    age : 20,
-    marks : 98,
-    prop: this,
-};
+let arr = [1, 2, 3, 4, 5];
+
+let print = function(el){
+    console.log(el);    
+}
+
+arr.forEach(print);
