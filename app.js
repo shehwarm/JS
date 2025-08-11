@@ -1,12 +1,6 @@
 
-let arr = [10, 15, 20, 25, 30, 35, 40, 45, 50];
+function sum(a, b=4){
+    return a + b;
+}
+console.log(sum(2)); // Outputs: 6
 
-let min = arr.reduce((acc, curr) => {
-    if(curr < acc){
-        return curr;    
-    } else {
-        return acc;
-    }
-});
-
-console.log(min);
