@@ -1,8 +1,4 @@
+let nums = [1,2,3,4];
 
-
-
-let odd = [3,5,7,8].some((el)=>{
-    return el % 2 == 1
-});
-
-console.log(odd); // true
+let finalVal = nums.reduce((acc, curr) => acc + curr);
+console.log(finalVal); // 10
