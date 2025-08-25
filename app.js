@@ -1,18 +1,7 @@
-let quarter = 1;
+let str = "Pie";
 
-switch(quarter){
-    case 1:
-            console.log("January"," February", "March");
-                break;
-    case 2:
-            console.log("April, May, June");
-                break;
-    case 3:
-            console.log("July, August, September");
-                break;
-    case 4:
-            console.log("October, November, December");
-                break;
-    default:
-            console.log("error");
+if((str[0] == 'A' || str[0] == 'a') && (str.length > 5 )){
+    console.log("golden string");
+} else {
+    console.log("normal");
 }
