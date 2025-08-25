@@ -1,19 +1,11 @@
-let a = 888;
-let b = 9368;
-let c = 21;
+let a = 32;
+let b = 47852;
 
-if(a>b){ 
-    if(a>c){
-      console.log(a,"is largest");
-    } else {
-        console.log(c,"is largest");
-    }
-} else {
-    if(b>c){
-        console.log(b,"is largest");
-    } else {
-        console.log(c,"is largest");
-    }
-}
-    
+
+if (a % 10 == b % 10 ){
+    console.log("numbers have the same last digit which is",num1%10);
+}else{
+    console.log("numbers don't have the same last digit");}
+
+
 
