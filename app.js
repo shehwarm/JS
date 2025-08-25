@@ -1,3 +1,5 @@
-let str = prompt("enter a string");
-console.log(`orignal string is  ${str}`);
-console.log(`string without spaces = ${str.trim()}`);
+let arr = ["apple", "banana"];
+
+ let search = arr.includes("apple");
+
+ console.log(search);
