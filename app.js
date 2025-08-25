@@ -1,8 +1,8 @@
 let str = "ShehwarMaryam";
-let idx= 2;
+let idx= 0;
 
-if(str[idx] == str[idx].toLowerCase()){
-    console.log("character is lower case");
+if(str[idx] == str[idx].toUpperCase()){
+    console.log("character is upper case");
 } else{
-    console.log("character is not lowercase");
+    console.log("character is  lowercase");
 }
