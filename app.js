@@ -1,5 +1,7 @@
-let arr = [7,9,0,-2];
-let n=3;
+let str = prompt("please enter a string");
 
-let ans = arr.slice(arr.length-n);
-console.log(ans);
+if(str.length == 0){
+    console.log("string is empty");
+} else{
+    console.log("not empty");
+}
