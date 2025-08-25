@@ -1,3 +1,7 @@
-let arr= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let num = 10;
 
-console.log(Math.max(...arr)); // Outputs: 1
+if(num % 10 == 0){
+    console.log("good");
+} else{
+    console.log("bad");
+}
