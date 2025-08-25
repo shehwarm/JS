@@ -1,7 +1,19 @@
-let str = "Pie";
+let a = 888;
+let b = 9368;
+let c = 21;
 
-if((str[0] == 'A' || str[0] == 'a') && (str.length > 5 )){
-    console.log("golden string");
+if(a>b){ 
+    if(a>c){
+      console.log(a,"is largest");
+    } else {
+        console.log(c,"is largest");
+    }
 } else {
-    console.log("normal");
+    if(b>c){
+        console.log(b,"is largest");
+    } else {
+        console.log(c,"is largest");
+    }
 }
+    
+
