@@ -1,7 +1,8 @@
-let str = prompt("please enter a string");
+let str = "ShehwarMaryam";
+let idx= 2;
 
-if(str.length == 0){
-    console.log("string is empty");
+if(str[idx] == str[idx].toLowerCase()){
+    console.log("character is lower case");
 } else{
-    console.log("not empty");
+    console.log("character is not lowercase");
 }
