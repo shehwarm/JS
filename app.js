@@ -1,11 +1,5 @@
-let a = 32;
-let b = 47852;
+let arr = [7,9,0,-2];
+let n=3;
 
-
-if (a % 10 == b % 10 ){
-    console.log("numbers have the same last digit which is",num1%10);
-}else{
-    console.log("numbers don't have the same last digit");}
-
-
-
+let ans = arr.splice(0,n);
+console.log(ans);
