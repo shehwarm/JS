@@ -1,5 +1,11 @@
-let arr = ["apple", "banana"];
+let arr =[1,2,3,4,5,2];
+let num = 2;
 
- let search = arr.includes("apple");
+for(let i=0; i<arr.length; i++){
+    if(arr[i] == num) {
+        arr.splice(i,1);
+    }
+}
 
- console.log(search);
+console.log(arr);
+
