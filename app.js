@@ -1,13 +1,8 @@
-let num = 2345642;
+let n = 5;
 
-let sum = 0;
-
-let copy = num;
-
-while(copy>0){
-    digit = copy%10;
-    sum += digit;
-    copy = Math.floor(copy/10);
+let factorial =1;
+for(let i=1; i<=n; i++){
+    factorial *= i;
 }
 
-console.log(sum);
+console.log(factorial);
