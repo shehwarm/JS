@@ -1,7 +1,8 @@
-const car = {
-    name: "BMW",
-    model : 2024,
-    color : "white",
+const person = {
+    name: "John Doe",
+    age : 27,
+    city : "Toronto",
 };
 
-console.log(car.name);
+person.city = "New York";
+console.log(person.city);
