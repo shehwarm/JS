@@ -1,9 +1,3 @@
-let arr =[2, 5, 6, 7, 2, 9];
-let largest = 0;
+let dice = Math.floor(Math.random()*6)+1;
 
-for(let i=0; i<arr.length; i++){
-    if(largest < arr[i]){
-        largest = arr[i];
-    }
-}
-console.log(largest);
+console.log(dice);
