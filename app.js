@@ -5,4 +5,7 @@ const person = {
 };
 
 person.city = "New York";
-console.log(person.city);
+
+person.country = "USA";
+
+console.log(person);
