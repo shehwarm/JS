@@ -1,17 +1,21 @@
-let str = "abcdefgggghw";
-
-function getElements(str){
-      let ans = "";
+let country = ["Australia", "Germany","United States of America"];
+let longest = "abcd";
 
 
-      for(let i =0; i<str.length; i++){
-        let currChar = str[i];
-        if(ans.indexOf(currChar) == -1){
-            ans += currChar;
-        }
-      }
+function getLongest(country){
+    let ansIdx = 0;
+      
+    for(let i =0; i<=country.length; i++){
+        let ansLen = country[andIdx].length;
+        let currLen = country[i].length;
 
-      return ans;
+        if(currLen > ansLen){
+            ansIdx = i;
+        } 
+
+    }
+    return country[ansIdx];
 }
 
-console.log(getElements(str));
+getLongest(country);
+
