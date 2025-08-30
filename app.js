@@ -1,21 +1,17 @@
-let country = ["Australia", "Germany","United States of America"];
-let longest = "abcd";
+let str ="apnacollege";
 
-
-function getLongest(country){
-    let ansIdx = 0;
-      
-    for(let i =0; i<=country.length; i++){
-        let ansLen = country[andIdx].length;
-        let currLen = country[i].length;
-
-        if(currLen > ansLen){
-            ansIdx = i;
-        } 
-
+function countVowels(str){
+    let count = 0;
+    for(let i = 0; i<str.length; i++){
+        if(
+            str.charAt(i) == "a" ||
+            str.charAt(i) == "e" ||
+            str.charAt(i) == "i" ||
+            str.charAt(i) == "o" ||
+            str.charAt(i) == "u"
+        ){
+            count++
+       }
     }
-    return country[ansIdx];
+    return count;
 }
-
-getLongest(country);
-
