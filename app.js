@@ -1,11 +1,11 @@
-const person = {
-    name: "John Doe",
-    age : 27,
-    city : "Toronto",
-};
+let arr = [45, 23,13,56,89];
+let num = 29;
 
-person.city = "New York";
+function getElements(arr, num){
+    for(let i = 0; i<arr.length; i++){
+        if(arr[i] > num){
+            console.log(arr[i]);
+        }
+    }
+}
 
-person.country = "USA";
-
-console.log(person);
