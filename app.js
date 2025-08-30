@@ -1,11 +1,17 @@
-let arr = [45, 23,13,56,89];
-let num = 29;
+let str = "abcdefgggghw";
 
-function getElements(arr, num){
-    for(let i = 0; i<arr.length; i++){
-        if(arr[i] > num){
-            console.log(arr[i]);
+function getElements(str){
+      let ans = "";
+
+
+      for(let i =0; i<str.length; i++){
+        let currChar = str[i];
+        if(ans.indexOf(currChar) == -1){
+            ans += currChar;
         }
-    }
+      }
+
+      return ans;
 }
 
+console.log(getElements(str));
