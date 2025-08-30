@@ -1,17 +1,8 @@
-let str ="apnacollege";
+let start = 100;
+let end = 300;
 
-function countVowels(str){
-    let count = 0;
-    for(let i = 0; i<str.length; i++){
-        if(
-            str.charAt(i) == "a" ||
-            str.charAt(i) == "e" ||
-            str.charAt(i) == "i" ||
-            str.charAt(i) == "o" ||
-            str.charAt(i) == "u"
-        ){
-            count++
-       }
-    }
-    return count;
+function generateRandom(start,end){
+    let diff = end - start;
+    return Math.floor(Math.random() * diff ) + start;
 }
+
