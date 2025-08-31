@@ -1,10 +1,12 @@
-function sumOfDigits(num){
-    let sum = 0;
-    while(num > 0){
-        sum += num % 10;
-        num = Math.floor(num / 10);
+function getMax(arr){
+    let max = arr[0]; // assume first is max
+
+    for(let i = 1; i < arr.length; i++){
+        if(arr[i] > max){
+            max = arr[i];
+        }
     }
-    return sum;
+    return max;
 }
 
-console.log(sumOfDigits(2345)); // 14
+console.log(getMax([23, 67, 12, 89, 45])); // 89
