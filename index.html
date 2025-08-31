@@ -1,16 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Concepts</title>
-    
-</head>
-<body>
-    <h1>Guessing Game</h1>
-    <p>Guess a number between 1 and 10:</p>
+let countries = ["Australia", "Germany", "US", "Canada"];
 
+function getSmallest(arr){
+    let ansIdx = 0;
 
-    <script src="app.js"></script> 
-</body>
-</html>
+    for(let i = 0; i < arr.length; i++){
+        let ansLen = arr[ansIdx].length;
+        let currLen = arr[i].length;
+
+        if(currLen < ansLen){
+            ansIdx = i;
+        }
+    }
+    return arr[ansIdx];
+}
+
+console.log(getSmallest(countries)); // "US"
