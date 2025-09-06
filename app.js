@@ -1,5 +1,5 @@
-const numbers = [2, 4, 6, 8, 10];
+function sumAll(...nums) {
+    return nums.reduce((acc, curr) => acc + curr, 0);
+}
 
-const squares = numbers.map(num => num * num);
-
-console.log(squares); // [4, 16, 36, 64, 100]
+console.log(sumAll(1, 2, 3, 4, 5)); // 15
