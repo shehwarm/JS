@@ -1,10 +1,8 @@
-function checkEvenOdd(num) {
-    if (num % 2 === 0) {
-        return `${num} is Even`;
-    } else {
-        return `${num} is Odd`;
+function factorial(n) {
+    if (n === 0 || n === 1) {
+        return 1;
     }
+    return n * factorial(n - 1); // recursive call
 }
 
-console.log(checkEvenOdd(7));
-console.log(checkEvenOdd(12));
+console.log(factorial(5)); // 120
