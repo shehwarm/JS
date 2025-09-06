@@ -1,6 +1,10 @@
-function add(a, b = 5) {
-    return a + b;
+function checkEvenOdd(num) {
+    if (num % 2 === 0) {
+        return `${num} is Even`;
+    } else {
+        return `${num} is Odd`;
+    }
 }
 
-console.log(add(10));   // uses default b = 5 → 15
-console.log(add(10, 20)); // overrides default → 30
+console.log(checkEvenOdd(7));
+console.log(checkEvenOdd(12));
