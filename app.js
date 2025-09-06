@@ -1,13 +1,11 @@
 
 
-function makeMultiplier(factor) {
-    return function(num) {
-        return num * factor;
-    };
+function square(num) {
+    return num * num;
 }
 
-const double = makeMultiplier(2);
-const triple = makeMultiplier(3);
+function sumOfSquares(a, b) {
+    return square(a) + square(b);
+}
 
-console.log(double(5)); // 10
-console.log(triple(5)); // 15
+console.log(sumOfSquares(3, 4)); // 9 + 16 = 25
