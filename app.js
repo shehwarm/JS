@@ -1,5 +1,7 @@
-function findMax(arr) {
-    return Math.max(...arr);
+function isPalindrome(str) {
+    let reversed = str.split("").reverse().join("");
+    return str === reversed;
 }
 
-console.log(findMax([12, 45, 67, 23, 89, 34])); // 89
+console.log(isPalindrome("madam"));  // true
+console.log(isPalindrome("hello"));  // false
