@@ -1,10 +1,5 @@
-function celsiusToFahrenheit(c) {
-    return (c * 9/5) + 32;
+function findMax(arr) {
+    return Math.max(...arr);
 }
 
-function fahrenheitToCelsius(f) {
-    return (f - 32) * 5/9;
-}
-
-console.log(celsiusToFahrenheit(30)); // 86°F
-console.log(fahrenheitToCelsius(86)); // 30°C
+console.log(findMax([12, 45, 67, 23, 89, 34])); // 89
