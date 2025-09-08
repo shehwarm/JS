@@ -1,17 +1,10 @@
-function add(a, b) {
-    return a + b;
-}
-function subtract(a, b) {
-    return a - b;
-}
-function multiply(a, b) {
-    return a * b;
-}
-function divide(a, b) {
-    return b !== 0 ? a / b : "Error: Division by zero";
+function celsiusToFahrenheit(c) {
+    return (c * 9/5) + 32;
 }
 
-console.log("Add:", add(10, 5));
-console.log("Subtract:", subtract(10, 5));
-console.log("Multiply:", multiply(10, 5));
-console.log("Divide:", divide(10, 5));
+function fahrenheitToCelsius(f) {
+    return (f - 32) * 5/9;
+}
+
+console.log(celsiusToFahrenheit(30)); // 86°F
+console.log(fahrenheitToCelsius(86)); // 30°C
