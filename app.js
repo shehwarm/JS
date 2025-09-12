@@ -1,3 +1,3 @@
-let colors = ["red", "green", "blue", "yellow"];
-let newColors = colors.slice(1, 3);
-console.log(newColors); // ["green", "blue"]
+let arr = ["a", "b", "c", "d"];
+arr.splice(2, 1, "x", "y");  
+console.log(arr); // ["a", "b", "x", "y", "d"]
