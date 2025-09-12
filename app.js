@@ -1,3 +1,2 @@
-let arr = ["a", "b", "c", "d"];
-arr.splice(2, 1, "x", "y");  
-console.log(arr); 
+let nums = [10, 20, 30, 40];
+console.log(nums.indexOf(30)); // 2
