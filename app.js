@@ -1,4 +1,3 @@
-let a = [1, 2];
-let b = [3, 4];
-let merged = a.concat(b);
-console.log(merged); // [1, 2, 3, 4]
+let colors = ["red", "green", "blue", "yellow"];
+let newColors = colors.slice(1, 3);
+console.log(newColors); // ["green", "blue"]
