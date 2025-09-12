@@ -1,3 +1,3 @@
-let nums = [1, 2, 3];
-let squares = nums.map(n => n * n);
-console.log(squares); // [1, 4, 9]
+let nums = [5, 10, 15, 20];
+let big = nums.filter(n => n > 10);
+console.log(big); // [15, 20]
