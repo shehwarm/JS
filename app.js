@@ -1,3 +1,3 @@
-let fruits = ["apple", "banana", "mango"];
-fruits.pop();
-console.log(fruits); // ["apple", "banana"]
+let nums = [1, 2, 3, 4];
+nums.shift();
+console.log(nums); // [2, 3, 4]
