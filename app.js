@@ -1,3 +1,3 @@
-let arr = [1, 2, 3];
-arr.reverse();
-console.log(arr); // [3, 2, 1]
+let nums = [40, 100, 5, 9];
+nums.sort((a, b) => a - b);
+console.log(nums); // [5, 9, 40, 100]
