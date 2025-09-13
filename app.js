@@ -1,3 +1,3 @@
-let nums = [40, 100, 5, 9];
-nums.sort((a, b) => a - b);
-console.log(nums); // [5, 9, 40, 100]
+let nums = [1, 2, 3, 4];
+let sum = nums.reduce((acc, n) => acc + n, 0);
+console.log(sum); // 10
