@@ -1,3 +1,3 @@
-let nums = [5, 10, 15, 20];
-let big = nums.filter(n => n > 10);
-console.log(big); // [15, 20]
+let arr = [1, 2, 3];
+arr.reverse();
+console.log(arr); // [3, 2, 1]
